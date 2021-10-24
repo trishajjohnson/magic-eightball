@@ -1,0 +1,14 @@
+.Eightball {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.Eightball-answer {
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Eightball-text {
+    color:antiquewhite;
+    padding: 150px 50px 150px 50px;
+}
