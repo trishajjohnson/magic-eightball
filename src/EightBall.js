@@ -16,7 +16,7 @@ const EightBall = ({answrs=answers}) => {
     return (
         <div className="Eightball">
             <h1>Magic Eight Ball</h1>
-            <div className="Eightball-answer" onClick={getRandomAnswer} style={{backgroundColor: color}}>
+            <div className="Eightball-answer" onClick={() => getRandomAnswer()} style={{backgroundColor: color}}>
                 <p className="Eightball-text">{eightballText}</p>
             </div>
             {/* <button className="Eightball-button" >Get Answer</button> */}
